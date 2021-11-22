@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+}
+
+
+
+
+.game-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.grid{
+    height: 600px;
+    width: 400px;
+    background: #ff4d4d;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+button{
+    margin: 20px;
+    width: 400px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    background: #ff4d4d;
+    opacity: 1;
+    color:white;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.doodler{
+    width: 85px;
+    height: 85px;
+    background: url("doodler-guy.png");
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background: #44bd32;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
